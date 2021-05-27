@@ -17,7 +17,7 @@ body {
     text-align: center;
     border-radius: 40%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-    background-image: url(../img/unicron.jpg);
+    background-image: url(../img/cakes.jpg);
     background-size: cover;
     background-position: right;
 }
@@ -25,6 +25,7 @@ body {
 #trasparency {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     border-radius: 40%;
@@ -36,11 +37,11 @@ h2 {
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 30px;
-    background: -webkit-linear-gradient( #83ee77, #c170e4);
+    font-size: 35px;
+    background: -webkit-linear-gradient( #72fa63, #c968f3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     
 }
 
@@ -50,9 +51,9 @@ ul {
 }
 
 li {
-    font-size: 20px;
+    font-size: 22px;
     list-style:  none;
-    color: #7086e9;
+    color: rgb(85, 25, 100);
     margin: 10px;
 }
 
