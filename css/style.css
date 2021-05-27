@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pattaya', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(233, 127, 127) , rgb(233, 188, 106), rgb(236, 236, 144), rgb(160, 236, 160), lightblue, rgb(136, 136, 245), rgb(235, 164, 235));
+}
+
+#root {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+    height: calc(100vh - 40px);
+    text-align: center;
+    border-radius: 40%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(../img/unicron.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#trasparency {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    background: -webkit-linear-gradient( #83ee77, #c170e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+ul {
+    text-align: left;
+    margin-left: 60px;
+}
+
+li {
+    font-size: 20px;
+    list-style:  none;
+    color: #7086e9;
+    margin: 10px;
+}
+
+li > i {
+    font-size: 20px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    color: rgb(224, 51, 158);
+    background-image: linear-gradient(to bottom, rgb(233, 127, 127) , rgb(233, 188, 106), rgb(236, 236, 144), rgb(160, 236, 160), lightblue, rgb(136, 136, 245), rgb(235, 164, 235));
+}

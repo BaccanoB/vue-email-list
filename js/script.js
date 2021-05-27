@@ -11,9 +11,7 @@ var app = new Vue (
                     .then(
                         (result) => {
                             this.mail.push(result.data.response);
-                            }
-                           
-                        
+                        }  
                     )
             }        
         }
